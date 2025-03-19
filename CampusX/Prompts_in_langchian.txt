@@ -1,0 +1,25 @@
+- prompt_ui.py file
+	- import langchain_openAI from chatOpenAI
+	- import load_dotenv from dotenv
+	- import streamlit
+	- load dotenv
+	- Create a model
+		- model = OpenAI(model="gpt-3.5-turbo-instruct")llm = OpenAI(model="gpt-3.5-turbo-instruct") = OpenAI(model="gpt-3.5-turbo-instruct")
+	- make a streamlit header named "Research Tool"
+	- Create an input using streamlit text input and store that in a variable named user_input.
+	- Add a streamlit button named "summarized"
+	- if that button clicked,
+		- result = model.invoke(user_input)
+		- st.write(result.content)
+		
+- Explain the problems with static prompts.
+- Explain what dynamic prompt is.
+	- Give an example of a proper prompt template.
+
+- Create an streamlit app based on superheroes information.
+	- use dynamic prompt template where you will have 3-4 input fields that would be given by the user.
+	- Based on that the output would be generated from the llm.
+	- use the opensource deepseek api from huggingface to do this.
+	- Make a beautiful UI using streamlit.
+	- Explain everything you are doing with great details.
+	
