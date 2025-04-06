@@ -1,0 +1,66 @@
+- Introduction to Prompt Engineering 
+	- adding specificity, providing context, 
+	and guiding the model with detailed instructions can significantly improve its responses.
+	
+- Basic Prompt Structure and Key Parts:
+	- The key parts of a prompt are:
+
+		- The Directive
+		- Examples
+		- Role (Persona)
+		- Output Formatting
+		- Additional Information
+		
+	1. Best Practices for Directives:
+	- Be clear and concise.
+	- Avoid ambiguous or vague instructions.
+	- When possible, use action verbs to indicate the specific task (e.g., "write," "list," "translate").
+	
+	2. Examples
+	- When the task is more complex, providing Examples can help guide the AI in producing more accurate responses.
+	
+	- Examples demonstrate the expected format, style, or structure of the output. By including them in the prompt, 
+	you can guide the AI's behavior and help it better understand the desired result.
+	
+	3. Role (Persona)
+	- By telling the AI to act as an expert, a professional, or a specific character,
+	you can guide the tone, style, and content of the response.
+	
+	- Best Practices for Using Roles:
+		- Use roles to add expertise or a specific perspective to the response.
+		- Ensure the role fits the task at hand (e.g., using a marketing expert to write promotional content).
+		- Combine the role with additional context for better results.
+		
+	4. Output Formatting
+	-  Output Formatting ensures that the response follows a particular structur-
+	whether it's a list, a table, or a paragraph.
+	- Style Instructions
+	You can also specify stylistic preferences, such as tone or length,	within the output formatting.
+	This allows you to control not just the content but how it's presented.
+	
+	5. Additional Information
+	- It provides the background details the AI needs to generate a relevant response. 
+	Including this information ensures that the AI has a comprehensive understanding of the task and the necessary data to complete it.
+	- Best Practices for Additional Information:
+	- Include only relevant information—avoid overloading the prompt with unnecessary details.
+	- Ensure the information is clearly linked to the task.
+	- Use this element to provide essential background that the AI might not otherwise have.
+	
+	
+- Order parts of the prompt:
+	- Examples (if needed)
+    - Additional Information
+    - Role
+    - Directive
+    - Output Formatting
+	
+	The order of the elements affects how the AI processes the information.
+	For instance, placing the directive last helps avoid the AI continuing the additional information
+	instead of focusing on the task at hand.
+	Placing the directive at the end helps ensure the AI processes all the context before generating its response.
+	This minimizes the risk of the AI continuing to add context instead of focusing on the specified task.
+	
+	
+- One Shot Prompting:
+	- One-shot prompting involves giving the AI a single example before the task.
+	This clarifies the expected output and can improve accuracy for tasks that benefit from a sample demonstration.
